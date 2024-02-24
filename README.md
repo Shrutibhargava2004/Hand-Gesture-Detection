@@ -1,2 +1,2 @@
-# Hand-Gesture-Emoji-Detection
-It is a project which detect the hand gesture and displays the matching emoji.
+# Hand-Gesture-Detection
+It is a project which detect the hand gesture and displays the name of corresponding hand emoji.
