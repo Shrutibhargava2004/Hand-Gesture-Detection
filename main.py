@@ -1,10 +1,10 @@
 from tkinter import *
 from tkinter.messagebox import *
-class ai:
+class ai_project:
     def main(self):
         root = Tk()
-        root.title('Hand Gesture Emoji Detection Application')
-        Label(root, text="Hand Gesture Emoji Detection Application").grid(row=0,column=3)
+        root.title('Hand Gesture Detection Application')
+        Label(root, text="Hand Gesture Detection Application").grid(row=0,column=3)
         Label(root, text='').grid(row=1,column=1)
         Label(root, text='').grid(row=2,column=1)
         Label(root, text='').grid(row=3,column=1)
@@ -13,7 +13,7 @@ class ai:
             self.desc()
         def destroy2():
             root.destroy()
-            self.helpp()
+            self.key_points()
         def destroy3():
             root.destroy()
             self.start()
@@ -34,7 +34,7 @@ class ai:
         root.mainloop()
 
 
-    def helpp(self):
+    def key_points(self):
         root = Tk()
         root.title('Help')
         Label(root, text="Here are few hand gestures which can be detected").grid(row=0,column=3)
@@ -54,5 +54,5 @@ class ai:
 
         
 
-a=ai()
+a=ai_project()
 a.main()
